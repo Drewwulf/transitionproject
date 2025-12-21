@@ -82,78 +82,6 @@
     background-color: #3e3e3e;
 }
 
-@keyframes page {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@media (max-width: 1000px) {
-    .a {
-        width: 80%;
-        height: 7vh;
-        background-color: #545454;
-        color: #ffffff;
-        font-size: 2.8rem !important;
-        margin: 1vh;
-        align-content: center;
-        text-align: center;
-        border: 0;
-        text-decoration: none;
-        border-radius: 2vh;
-    }
-
-    .a2 {
-        width: 52%;
-        height: 7vh;
-        background-color: #545454;
-        color: #ffffff;
-        font-size: 2.5rem !important;
-        margin: 10vh;
-        align-content: center;
-        text-align: center;
-        border: 0;
-        text-decoration: none;
-        border-radius: 2vh;
-    }
-
-    .h1 {
-        font-size: 3.2rem;
-        color: #ffffff;
-    }
-
-    .spusok {
-        font-size: 2.2rem;
-        width: 100%;
-    }
-    .spusok ol {
-        font-size: 2.2rem;
-        line-height: 3vh;
-        text-align: center;
-    }
-
-    .p1 {
-        font-size: 3rem;
-        color: #ffffff;
-        text-align: center;
-        margin: 0;
-        line-height: 4vh;
-        margin-bottom: 3vh;
-    }
-
-    .img1 {
-        border-radius: 50%;
-        width: 50%;
-        height: 30%;
-        margin-top: 3vh;
-        border: 6px solid #e5e5e5;
-        box-shadow: 0 0 40px #000000;
-    }
-}
-
 .img {
     width: 100%;
 }
@@ -176,4 +104,60 @@
     text-align: center;
     font-size: 2.3rem;
     margin: 3vh;
+}
+
+@keyframes page {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 1000px) {
+    .a {
+        width: 80%;
+        height: 7vh;
+        font-size: 2.8rem !important;
+        margin: 1vh;
+    }
+
+    .a2 {
+        width: 52%;
+        height: 7vh;
+        font-size: 2.5rem !important;
+        margin: 10vh;
+    }
+
+    .h1 {
+        font-size: 3.2rem;
+        color: #ffffff;
+    }
+
+    .spusok {
+        font-size: 2.9rem;
+        width: 100%!important;
+    }
+    .spusok ol {
+        font-size: 2.2rem;
+        line-height: 3vh;
+        text-align: center;
+    }
+
+    .p1 {
+        font-size: 3rem;
+        margin: 0;
+        line-height: 4vh;
+        margin-bottom: 3vh;
+    }
+
+    .img1 {
+        border-radius: 50%;
+        width: 50%;
+        height: 30%;
+        margin-top: 3vh;
+        border: 6px solid #e5e5e5;
+        box-shadow: 0 0 40px #000000;
+    }
 }
