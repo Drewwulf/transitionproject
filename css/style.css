@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mea+Culpa&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.body {
+    background-color: #737373;
+    border: 0;
+    margin: 0;
+}
+
+.img1 {
+    border-radius: 50%;
+    width: 50%;
+    height: 30%;
+    margin-top: 3vh;
+    border: 6px solid #e5e5e5;
+    box-shadow: 0 0 40px #000000;
+}
+
+.section1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h1 {
+    font-size: 4.9rem!important;
+    color: #ffffff;
+}
+
+.p1 {
+    font-size: 2.2rem;
+    color: #ffffff;
+    text-align: center;
+    margin: 4vh;
+    line-height: 6vh;
+    margin-bottom: 4vh!important;
+}
+
+#p2{
+    margin-bottom: 10vh!important;
+}
+
+.a {
+    width: 43%;
+    height: 8vh;
+    background-color: #545454;
+    color: #ffffff;
+    font-size: 1.9rem !important;
+    margin: 1vh;
+    align-content: center;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    border-radius: 2vh;
+}
+
+.a:hover{
+    width: 43%;
+    height: 8vh;
+    background-color: #3e3e3e;
+    color: #ffffff;
+    font-size: 1.9rem !important;
+    margin: 1vh;
+    align-content: center;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    border-radius: 2vh;
+}
+
+.a2 {
+    width: 32%;
+    height: 8vh;
+    background-color: #545454;
+    color: #ffffff;
+    font-size: 1.8rem;
+    margin: 12vh;
+    align-content: center;
+    text-align: center;
+    border: 0;
+    text-decoration: none;
+    border-radius: 2vh;
+}
+
+@media (max-width: 1000px) {
+    .a {
+        width: 80%;
+        height: 7vh;
+        background-color: #545454;
+        color: #ffffff;
+        font-size: 2.8rem !important;
+        margin: 1vh;
+        align-content: center;
+        text-align: center;
+        border: 0;
+        text-decoration: none;
+        border-radius: 2vh;
+    }
+
+    .a2 {
+        width: 52%;
+        height: 7vh;
+        background-color: #545454;
+        color: #ffffff;
+        font-size: 2.5rem !important;
+        margin: 10vh;
+        align-content: center;
+        text-align: center;
+        border: 0;
+        text-decoration: none;
+        border-radius: 2vh;
+    }
+
+    .h1 {
+        font-size: 3.7rem;
+        color: #ffffff;
+    }
+
+    .p1 {
+        font-size: 3rem;
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+        line-height: 4vh;
+        margin-bottom: 3vh
+    }
+}
