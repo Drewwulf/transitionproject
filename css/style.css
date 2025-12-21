@@ -61,17 +61,7 @@
 }
 
 .a:hover {
-    width: 43%;
-    height: 8vh;
     background-color: #3e3e3e;
-    color: #ffffff;
-    font-size: 1.9rem !important;
-    margin: 1vh;
-    align-content: center;
-    text-align: center;
-    border: 0;
-    text-decoration: none;
-    border-radius: 2vh;
 }
 
 .a2 {
@@ -89,17 +79,7 @@
 }
 
 .a2:hover {
-    width: 32%;
-    height: 8vh;
     background-color: #3e3e3e;
-    color: #ffffff;
-    font-size: 1.8rem;
-    margin: 12vh;
-    align-content: center;
-    text-align: center;
-    border: 0;
-    text-decoration: none;
-    border-radius: 2vh;
 }
 
 @keyframes page {
@@ -146,8 +126,8 @@
     }
 
     .spusok {
-        width: 90%;
         font-size: 2.2rem;
+        width: 100%;
     }
     .spusok ol {
         font-size: 2.2rem;
