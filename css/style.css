@@ -114,6 +114,10 @@
     margin: 3vh;
 }
 
+title{
+
+}
+
 @keyframes page {
     from {
         opacity: 0;
