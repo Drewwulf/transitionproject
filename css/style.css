@@ -39,7 +39,7 @@
     text-align: center;
     margin: 4vh;
     line-height: 6vh;
-    margin-bottom: 4vh !important;
+    margin-bottom: 6vh !important;
 }
 
 #p2 {
@@ -84,6 +84,14 @@
 
 .img {
     width: 100%;
+}
+
+.buttonH{
+    font-size: 2.5rem;
+    text-align: center;
+    padding-left: 12px;
+    width:88%;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.36);
 }
 
 .spusok {
